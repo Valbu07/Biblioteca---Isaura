@@ -1,0 +1,100 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1c3b36;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.presentacion {
+    background-color: #476762;
+    color: white;
+    padding: 1rem;
+    height: 100%;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+
+.formulario {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition:0.3s ease;
+}
+
+.formulario:hover {
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.formulario h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #1c3b36;
+    
+}
+
+.usuario {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.usuario input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+}
+
+.usuario label {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    background-color: #ffffff;
+    font-size: 0.85rem;
+    color: #1c3b36;
+    padding: 0 5px;
+}
+
+.recordar {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.recordar a {
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: #476762;
+}
+
+.recordar a:hover {
+    text-decoration: underline;
+}
+
+.boton {
+    width: 100%;
+    padding: 10px;
+    background-color: #1c3b36;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #2d4c46;
+}
