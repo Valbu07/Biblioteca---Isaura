@@ -54,20 +54,69 @@
                 <div class="col-3">
                     <div class="card" style="width: 18rem;">
                     <img src="./img/music.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Agrege una imagen <i class="bi bi-pencil-fill"></i></p>
+                    <div class="mb-3">
+                        <input type="file" class="form-control" aria-label="file example" required>
+                        <div class="invalid-feedback">Example invalid form file feedback</div>
                     </div>
                     </div>
                 </div>
 
 <!--columna2.1-->
                 <div class="col-9">
-                    <h5>lista publica <i class="bi bi-pencil-fill"></i></h5>
-                    <h1>Añadir titulo Album <i class="bi bi-pencil-fill"></i></h1>
-                    <h6>Añadir año de producción <i class="bi bi-pencil-fill"></i></h6>
-                    <h6>Añadir artista <i class="bi bi-pencil-fill"></i></h6>
-                    <h6>Añadir medio de grabación <i class="bi bi-pencil-fill"></i></h6>
-                    <h6>Añadir descripción <i class="bi bi-pencil-fill"></i></h6>
+                 
+  <div class="mb-3">
+    <h5>lista <i class="bi bi-pencil-fill"></i></h5>
+    <select class="form-select" required aria-label="select example">
+      <option value="">Escoge una opcion</option>
+      <option value="1">Privada</option>
+      <option value="2">Publica</option>
+    </select>
+    <div class="invalid-feedback">Example invalid select feedback</div>
+  </div>
+
+<form class="was-validated">
+  <div class="mb-3">
+    <label for="validationTextarea" class="form-label">Añadir titulo Album <i class="bi bi-pencil-fill"></i> </label>
+    <textarea class="form-control" id="validationTextarea" placeholder="Escriba aqui" required></textarea>
+    <div class="invalid-feedback">
+        Require llenar el campo
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="validationTextarea" class="form-label">Añadir año de producción <i class="bi bi-pencil-fill"></i> </label>
+    <textarea class="form-control" id="validationTextarea" placeholder="Escriba aqui" required></textarea>
+    <div class="invalid-feedback">
+        Require llenar el campo
+    </div>
+  </div>
+
+
+  <div class="mb-3">
+    <label for="validationTextarea" class="form-label">Añadir artista <i class="bi bi-pencil-fill"></i> </label>
+    <textarea class="form-control" id="validationTextarea" placeholder="Escriba aqui" required></textarea>
+    <div class="invalid-feedback">
+        Require llenar el campo
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="validationTextarea" class="form-label">Añadir medio de grabación <i class="bi bi-pencil-fill"></i> </label>
+    <textarea class="form-control" id="validationTextarea" placeholder="Escriba aqui" required></textarea>
+    <div class="invalid-feedback">
+        Require llenar el campo
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="validationTextarea" class="form-label">Añadir descripción <i class="bi bi-pencil-fill"></i> </label>
+    <textarea class="form-control" id="validationTextarea" placeholder="Escriba aqui" required></textarea>
+    <div class="invalid-feedback">
+        Require llenar el campo
+    </div>
+  </div>
+
+
 
                 </div>
 
@@ -86,15 +135,21 @@
 
             <div class="row">
                 <div class="container">
-                    <div class="col-12">Agregar canción <i class="bi bi-pencil-fill"></i> </div>
+                    <div class="col-12 "><a href="#" class="cancion">Agregar canción + </a><i class="bi bi-pencil-fill"></i> </div>
                 </div>
-
+            
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
             </div>
+
+
         </div>
     </div>
 
-</div>
 
+
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
